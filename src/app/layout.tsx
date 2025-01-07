@@ -27,7 +27,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AICLON Voice Assistant",
+  title: "Sepia Voice Assistant",
   description: "AI Voice Assistant DEMO",
 };
 
