@@ -5,6 +5,16 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center px-4 py-8 bg-gray-50">
       {/* Contenedor principal tipo "card" */}
       <div className="max-w-md w-full bg-white rounded-lg shadow-md p-6 text-center">
+
+{/* Logo centrado */}
+<img
+          src="/logo.png"
+          alt="Logo AICLON"
+          className="mx-auto mb-4"
+          width="80"   // Ajusta el ancho a tu preferencia
+          height="80"  // Ajusta la altura si quieres
+        />
+
         <h1 className="text-3xl font-bold mb-4">
           AICLON Voice AI 
         </h1>

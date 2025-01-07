@@ -27,8 +27,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AICLON Voice DEMO",
-  description: "AI Voice Assistant",
+  title: "AICLON Voice Assistant",
+  description: "AI Voice Assistant DEMO",
 };
 
 export default function RootLayout({
