@@ -14,8 +14,12 @@
   }
 }
 
+/* Aplicas la variable "montserrat" en tu body */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+  /* Reemplaza Arial, Helvetica con la nueva variable */
+  font-family: var(--font-montserrat), sans-serif;
 }
+

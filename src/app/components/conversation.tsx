@@ -5,8 +5,8 @@ import { useCallback } from 'react';
 
 export function Conversation() {
   const conversation = useConversation({
-    onConnect: () => console.log('Conectado'),
-    onDisconnect: () => console.log('Desconectado'),
+    onConnect: () => console.log('Connected'),
+    onDisconnect: () => console.log('Disconnected'),
     onMessage: (message) => console.log('Message:', message),
     onError: (error) => console.error('Error:', error),
   });
@@ -23,7 +23,7 @@ export function Conversation() {
       
 
     } catch (error) {
-      console.error('Failed to start conversation:', error);
+      console.error('Error al iniciar conversación:', error);
     }
   }, [conversation]);
 
@@ -53,7 +53,7 @@ export function Conversation() {
 
       <div className="flex flex-col items-center">
         <p>Estado: {conversation.status}</p>
-        <p>El Agent está {conversation.isSpeaking ? 'hablando' : 'escuchando'}</p>
+        <p>El Agente está {conversation.isSpeaking ? 'hablando' : 'escuchando'}</p>
       </div>
     </div>
   );
