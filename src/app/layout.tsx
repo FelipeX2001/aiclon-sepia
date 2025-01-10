@@ -27,7 +27,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sepia Voice Assistant",
+  title: "ESENORTE Voice Assistant",
   description: "AI Voice Assistant DEMO",
 };
 
