@@ -11,7 +11,7 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"], 
   // weights opcionales
-  weight: ["400", "700"],  
+  weight: ["400", "800"],  
   // si quieres cursivas o más pesos, agrégalos también
   // style: ["normal", "italic"],
 });
