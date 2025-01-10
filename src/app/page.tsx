@@ -19,7 +19,7 @@ export default function Home() {
           AICLON Voice AI 
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-        Sepia Creativa
+        ESENORTE Creativa
         </p>
         
         {/* Aquí va el componente con los botones y el estado */}
