@@ -27,8 +27,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ESENORTE AI Voice Assistant",
-  description: "AI ESENORTE Voice Assistant DEMO",
+  title: "AI Voice Assistant",
+  description: "AI Voice Assistant DEMO",
 };
 
 export default function RootLayout({
