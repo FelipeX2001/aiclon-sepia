@@ -18,7 +18,7 @@ export function Conversation() {
 
       // Iniciar la conversación directamente con tu agentId
       await conversation.startSession({
-        agentId: 'E8kBDGM8ItXy1JVEH9ha',
+        agentId: 'NHlRIQXx7liaAGdopYty',
       });
       
 
@@ -53,7 +53,7 @@ export function Conversation() {
 
       <div className="flex flex-col items-center">
         <p>Estado: {conversation.status}</p>
-        <p>El Agente está {conversation.isSpeaking ? 'hablando' : 'escuchando'}</p>
+        <p>El agente está {conversation.isSpeaking ? 'hablando' : 'escuchando'}</p>
       </div>
     </div>
   );
