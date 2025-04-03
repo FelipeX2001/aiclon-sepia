@@ -27,8 +27,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sepia AI Voice Assistant",
-  description: "Sepia AI Voice Assistant DEMO",
+  title: "IApps AI Assistant",
+  description: "Voice AI Demo",
 };
 
 export default function RootLayout({

@@ -8,18 +8,18 @@ export default function Home() {
 
 {/* Logo centrado */}
 <img
-          src="/sepia2.png"
-          alt="Logo Sepia"
+          src="/logo_iapps.png"
+          alt="Logo IApps"
           className="mx-auto mb-4"
           width="80"   // Ajusta el ancho a tu preferencia
           height="80"  // Ajusta la altura si quieres
         />
 
         <h1 className="text-3xl font-bold mb-4">
-          Sepia AI Voice Assistant 
+          Recu AI Voice Assistant
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-        Sepia DEMO
+        DEMO IApps
         </p>
         
         {/* Aquí va el componente con los botones y el estado */}

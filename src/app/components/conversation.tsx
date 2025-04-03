@@ -18,7 +18,7 @@ export function Conversation() {
 
       // Iniciar la conversación directamente con tu agentId
       await conversation.startSession({
-        agentId: 'NHlRIQXx7liaAGdopYty',
+        agentId: 'aBsn2di6AiKVHkrMN78L',
       });
       
 
