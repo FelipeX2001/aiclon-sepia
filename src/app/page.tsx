@@ -16,10 +16,10 @@ export default function Home() {
         />
 
         <h1 className="text-3xl font-bold mb-4">
-          Recu AI Voice Assistant
+          AI Voice Assistant
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-        DEMO IApps
+        DEMO AICLON
         </p>
         
         {/* Aquí va el componente con los botones y el estado */}
