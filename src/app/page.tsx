@@ -8,7 +8,7 @@ export default function Home() {
 
 {/* Logo centrado */}
 <img
-          src="/logo_iapps.png"
+          src="/logo_iapps_negro.png"
           alt="Logo IApps"
           className="mx-auto mb-4"
           width="80"   // Ajusta el ancho a tu preferencia
