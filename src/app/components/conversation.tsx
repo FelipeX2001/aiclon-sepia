@@ -18,7 +18,7 @@ export function Conversation() {
 
       // Iniciar la conversación directamente con tu agentId
       await conversation.startSession({
-        agentId: 'tWk0QED6RCqM4GxZCYJb',
+        agentId: 'INApTceiaRRp2c5V9hRL',
       });
       
 
@@ -40,14 +40,14 @@ export function Conversation() {
           disabled={conversation.status === 'connected'}
           className="px-4 py-2 bg-blue-500 text-white rounded disabled:bg-gray-300"
         >
-          Iniciar Conversación
+          Start Call
         </button>
         <button
           onClick={stopConversation}
           disabled={conversation.status !== 'connected'}
           className="px-4 py-2 bg-red-500 text-white rounded disabled:bg-gray-300"
         >
-          Terminar Conversación
+          Finish Call
         </button>
       </div>
 

@@ -8,8 +8,8 @@ export default function Home() {
 
 {/* Logo centrado */}
 <img
-          src="/logo_iapps_negro.png"
-          alt="Logo IApps"
+          src="/vip_laser.png"
+          alt="Logo VIP Laser"
           className="mx-auto mb-4"
           width="80"   // Ajusta el ancho a tu preferencia
           height="80"  // Ajusta la altura si quieres
@@ -19,7 +19,7 @@ export default function Home() {
           AI Voice Assistant
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-        DEMO AICLON
+        DEMO VIP LASER
         </p>
         
         {/* Aquí va el componente con los botones y el estado */}
